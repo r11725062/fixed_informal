@@ -41,7 +41,7 @@ exports.handler = async (event) => {
                 "content": "當然可以更深入一點！在準備薪資談判時，除了研究市場行情和公司政策外，還可以進一步了解公司的需求和挑戰，看看自己如何可以幫助解決問題。這樣你就能更有針對性地展示自己的價值。另外，也可以預先準備好應對各種可能情況的回應，包括對方可能提出的異議或反駁。這樣就算遇到意外情況，也能從容應對。最重要的是保持積極的態度和開放的心態，薪資談判其實也是一次雙贏的機會！加油！💼💡"
               },
               {"role": "user", "content": userMessage}],
-      temperature: 0.2,
+      temperature: 0.8,
       top_p: 0.8,
       frequency_penalty: 0.3,
       presence_penalty: 0.3,

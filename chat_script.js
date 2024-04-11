@@ -188,7 +188,7 @@ $(document).ready(function() {
             // 如果是第三个指引被关闭，则隐藏遮罩层
             $(".modal-overlay").hide();
             // 在这里开始计时
-            const duration = 180, // 这里设置倒数计时的总秒数，示例中设置为3分钟
+            const duration = 300, // 这里设置倒数计时的总秒数，示例中设置为3分钟
                 display = document.querySelector('#timer');
             startTimer(duration, display);
         }

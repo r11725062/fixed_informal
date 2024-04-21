@@ -128,7 +128,7 @@ function submitChatHistoryToGoogleForm() {
     // 构造表单数据
     let formData = new FormData();
     formData.append("entry.938012830", 'fixed');
-    formData.append("entry.25562195", "formal");
+    formData.append("entry.25562195", "informal");
     formData.append("entry.22358687", "default_name");
     formData.append("entry.1553700084", avatarSrc);
     formData.append("entry.801005873", chatHistoryString);
